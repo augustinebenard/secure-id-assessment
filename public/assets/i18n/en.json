@@ -1,0 +1,43 @@
+{
+  "APP": {
+    "APP_NAME": "E-Commerce App",
+    "CHANGE_LANGUAGE": "Change Language",
+    "BACK_BUTTON": "Back",
+    "LOAD_MORE_BUTTON": "Load More"
+  },
+  "PRODUCT": {
+    "PRODUCT_TITLE": "Product List",
+    "PRODUCTS": "Products",
+    "SEARCH_PRODUCTS": "Search for products...",
+    "ADD_TO_CART": "Add to Cart",
+    "ADDED_TO_CART": "Added to Cart"
+  },
+  "CART": {
+    "CART_MENU_TITLE": "Cart",
+    "SHOPPING_CART": "Shopping Cart",
+    "EMPTY_CART_MESSAGE": "Your cart is empty",
+    "START_SHOPPING": "Start Shopping",
+    "REMOVE_FROM_CART": "Remove from Cart",
+    "REMOVE": "Remove",
+    "COUPON_CODE": "Coupon Code",
+    "APPLY_COUPON": "Apply Coupon",
+    "GRAND_TOTAL": "Grand Total",
+    "TOTAL": "Total",
+    "DISCOUNT": "Discount",
+    "SHIPPING": "Shipping",
+    "ORDER_SUMMARY": "Order Summary",
+    "TABLE":{
+      "PRODUCT_NAME": "Product Name",
+      "QUANTITY": "Quantity",
+      "PRICE": "Price",
+      "TOTAL": "Total",
+      "ACTIONS": "Action"
+    }
+  },
+  "CHART": {
+    "CHART_TITLE": "Dynamic Sales Data",
+    "CHART_DESCRIPTION": "This chart shows the sales, expenses, and profits for the year.",
+    "CHART_BUTTON": "Add Random Data",
+    "CHART_MENU_NAME": "Chart Dashboard"
+  }
+}

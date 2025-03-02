@@ -1,0 +1,115 @@
+
+
+
+.cart-table {
+  margin-bottom: 20px;
+}
+
+.cart-total {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.coupon-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+
+  input {
+    flex: 1;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+
+    &:focus {
+      border-color: #80bdff;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+
+  &:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+}
+
+.empty-cart {
+  text-align: center;
+  margin-top: 50px;
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
+
+
+.cart-summary {
+  margin-top: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  .list-group-item {
+    border: none;
+    padding: 10px 0;
+    font-size: 1rem;
+
+    &:last-child {
+      border-top: 1px solid #e3e3e3;
+      margin-top: 10px;
+      padding-top: 15px;
+      font-weight: bold;
+      color: #28a745;
+    }
+  }
+
+  .list-group-item span {
+    font-weight: bold;
+    color: #555;
+  }
+
+  .list-group-item:nth-child(2) span {
+    color: #dc3545;
+  }
+
+  .list-group-item:nth-child(3) span {
+    color: #007bff;
+  }
+}
+

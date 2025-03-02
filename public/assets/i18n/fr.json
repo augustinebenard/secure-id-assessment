@@ -1,0 +1,43 @@
+{
+  "APP": {
+    "APP_NAME": "Application E-Commerce",
+    "CHANGE_LANGUAGE": "Changer de Langue",
+    "BACK_BUTTON": "Retour",
+    "LOAD_MORE_BUTTON": "Charger Plus"
+  },
+  "PRODUCT": {
+    "PRODUCT_TITLE": "Liste des Produits",
+    "PRODUCTS": "Produits",
+    "SEARCH_PRODUCTS": "Rechercher des produits...",
+    "ADD_TO_CART": "Ajouter au Panier",
+    "ADDED_TO_CART": "Ajouté au Panier"
+  },
+  "CART": {
+    "CART_MENU_TITLE": "Panier",
+    "SHOPPING_CART": "Panier d'Achat",
+    "EMPTY_CART_MESSAGE": "Votre panier est vide",
+    "START_SHOPPING": "Commencer les Achats",
+    "REMOVE_FROM_CART": "Retirer du Panier",
+    "REMOVE": "Retirer",
+    "COUPON_CODE": "Code de Réduction",
+    "APPLY_COUPON": "Appliquer le Coupon",
+    "GRAND_TOTAL": "Total Général",
+    "TOTAL": "Total",
+    "DISCOUNT": "Remise",
+    "SHIPPING": "Livraison",
+    "ORDER_SUMMARY": "Résumé de la Commande",
+    "TABLE": {
+      "PRODUCT_NAME": "Nom du Produit",
+      "QUANTITY": "Quantité",
+      "PRICE": "Prix",
+      "TOTAL": "Total",
+      "ACTIONS": "Action"
+    }
+  },
+  "CHART": {
+    "CHART_TITLE": "Données de Vente Dynamiques",
+    "CHART_DESCRIPTION": "Ce graphique montre les ventes, dépenses et profits de l'année.",
+    "CHART_BUTTON": "Ajouter des Données Aléatoires",
+    "CHART_MENU_NAME": "Tableau de Bord des Graphiques"
+  }
+}
