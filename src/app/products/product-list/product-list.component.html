@@ -5,11 +5,12 @@
       type="text"
       class="form-control search-input"
       [(ngModel)]="searchQuery"
+      (keyup)="filterProducts()"
       placeholder="{{ 'PRODUCT.SEARCH_PRODUCTS' | translate }}"
     />
   </div>
   <div class="row mb-5">
-    <div class="col-md-4 product-card" *ngFor="let product of filteredProducts">
+    <div class="col-md-4 col-lg-4 product-card" *ngFor="let product of filteredProducts">
       <div class="card">
         <img
           [src]="'assets/products/' + product.imageUrl"
