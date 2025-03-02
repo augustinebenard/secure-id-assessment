@@ -31,6 +31,8 @@ export class ProductListComponent implements OnInit {
       items.forEach((item) => {
         this.cartItems.set(item.product.id, true);
       });
+      // console.log(this.cartItems);
+
     });
   }
 
@@ -66,6 +68,8 @@ export class ProductListComponent implements OnInit {
   addToCart(product: Product): void {
     this.cartService.addToCart(product);
     this.cartItems.set(product.id, true);
+    // console.log(this.cartItems);
+
     this.toast.success(`${product.name} added to cart.`, 'Success');
   }
 
@@ -86,6 +90,8 @@ export class ProductListComponent implements OnInit {
       this.filteredProducts = this.displayedProducts.filter(product =>
         product.name.toLowerCase().includes(this.searchQuery.toLowerCase())
       );
+      // console.log(this.filteredProducts);
+
     }
   }
 }
