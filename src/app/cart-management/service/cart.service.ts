@@ -52,6 +52,8 @@ export class CartService {
         return total * 0.10;
       case 'NG001':
         return total * 0.15;
+      case 'SECUREDEV001':
+        return total * 0.20;
       default:
         return 0;
     }
