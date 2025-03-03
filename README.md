@@ -1,27 +1,53 @@
 # EcommerceCartManagement
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.14.
 
-## Development server
+<div style="position: relative; padding-bottom: 60.30150753768844%; height: 0;"><iframe src="https://www.loom.com/embed/15a3ebc2a582445a9cfc65fe95071f88?sid=ad7dc117-85eb-4d62-b413-041a435de44c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Description
+This project is a simple E-commerce cart management system. It has the following features:
+- Product list
+- Cart
+- Language change
+- Chart dashboard
 
-## Code scaffolding
+### Product list
+The product list page displays a list of products. You can add a product to the cart by clicking the "Add to cart" button.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Cart
+The cart page displays the products that have been added to the cart. You can remove a product from the cart by clicking the "Remove" button.
+Its also possible to change the quantity of the product in the cart.
+You can apply Coupon code to get a discount on the cart total.
 
-## Build
+**COUPUN CODES: AUSTIN001 - 10% discount, NG001 - 15% discount, SECUREDEV001 - 20% discount**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Language change
+The project supports English, Spanish and French languages. You can change the language by clicking the language switcher in the header.
 
-## Running unit tests
+### Chart dashboard
+The chart dashboard page displays a chart showing the total sales. The Chart is displayed using Chart.js.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The project is built using Angular 18 and Bootstrap 5.
 
-## Running end-to-end tests
+## Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+To install the project, you need to have the following installed:
 
-## Further help
+- Node.js
+- Angular CLI
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+After installing the above, you can run the following commands:
+
+```bash
+npm install
+ng serve
+```
+
+## Usage
+
+The project has the following routes:
+
+- `/products` - Product list
+- `/cart` - Cart
+- `/dashboard` - Chart dashboard
+
+

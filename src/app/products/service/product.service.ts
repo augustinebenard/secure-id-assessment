@@ -23,7 +23,7 @@ export class ProductService {
       id: 3,
       name: 'Wireless Keyboard',
       price: 2500,
-      description: 'Wireless Keyboard! Best for office use. 2.4 GHz wireless keyboard with 104 keys.',
+      description: 'Wireless Keyboard! Best for office and personal use. It is powered by a 2.4 GHz wireless keyboard with 104 keys.',
       imageUrl: 'keyboard.webp'
     },
     {
