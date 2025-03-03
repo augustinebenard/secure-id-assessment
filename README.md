@@ -1,7 +1,13 @@
 # EcommerceCartManagement
 
-
-<div style="position: relative; padding-bottom: 60.30150753768844%; height: 0;"><iframe src="https://www.loom.com/embed/15a3ebc2a582445a9cfc65fe95071f88?sid=ad7dc117-85eb-4d62-b413-041a435de44c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div>
+    <a href="https://www.loom.com/share/15a3ebc2a582445a9cfc65fe95071f88">
+      <p>Ecommerce Cart Management | SECURE ID - 3 March 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/15a3ebc2a582445a9cfc65fe95071f88">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/15a3ebc2a582445a9cfc65fe95071f88-ccd2b5b57a68419a-full-play.gif">
+    </a>
+  </div>
 
 ## Description
 This project is a simple E-commerce cart management system. It has the following features:
@@ -48,6 +54,6 @@ The project has the following routes:
 
 - `/products` - Product list
 - `/cart` - Cart
-- `/dashboard` - Chart dashboard
+- `/chart` - Chart dashboard
 
 
