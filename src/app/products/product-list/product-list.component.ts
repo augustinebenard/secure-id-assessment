@@ -17,6 +17,7 @@ export class ProductListComponent implements OnInit {
   itemsPerPage = 6;
   currentPage = 1;
   searchQuery: string = '';
+  selectedProduct: Product | null = null;
 
   constructor(
     private productService: ProductService,
@@ -31,7 +32,7 @@ export class ProductListComponent implements OnInit {
       items.forEach((item) => {
         this.cartItems.set(item.product.id, true);
       });
-      // console.log(this.cartItems);
+      console.log("cartItems", this.cartItems);
 
     });
   }
@@ -68,8 +69,6 @@ export class ProductListComponent implements OnInit {
   addToCart(product: Product): void {
     this.cartService.addToCart(product);
     this.cartItems.set(product.id, true);
-    // console.log(this.cartItems);
-
     this.toast.success(`${product.name} added to cart.`, 'Success');
   }
 
@@ -86,12 +85,16 @@ export class ProductListComponent implements OnInit {
   filterProducts(): void {
     if (this.searchQuery.trim() === '') {
       this.filteredProducts = this.displayedProducts;
+      console.log("filteredProducts", this.filteredProducts);
+
     } else {
       this.filteredProducts = this.displayedProducts.filter(product =>
         product.name.toLowerCase().includes(this.searchQuery.toLowerCase())
       );
-      // console.log(this.filteredProducts);
-
     }
+  }
+
+  viewProductDetails(product: Product): void {
+    this.selectedProduct = product;
   }
 }
